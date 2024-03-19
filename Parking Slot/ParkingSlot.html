@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Slot</title>
+    <link rel="stylesheet" href="../CSS/ParkingSlot.css">
+</head>
+<body>
+    <div id="main">
+        <div id="form">
+            <form action="#">
+                <div id="form-content">
+                    <div class="input-content">
+                        <div class="input">
+                            <label for="cname">Customer Name:</label>
+                            <input type="text" name="cname" id="cname" class="input-box">
+                        </div>
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-content">
+                        <div class="input">
+                            <label for="bikeno">Bike Number</label>
+                            <input type="number" name="bikeno" id="bikeno" class="input-box">
+                        </div>
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-content">
+                        <div class="input">
+                            <label for="in-time">In Time</label>
+                            <input type="time" name="in-time" id="in-time" class="input-box">
+                        </div>
+                        <p class="error"></p>
+                    </div>
+                    <div class="input-content">
+                        <div class="input">
+                            <label for="out-time">Out Time</label>
+                            <input type="time" name="out-time" id="out-time" class="input-box">
+                        </div>
+                        <p class="error"></p>
+                    </div>
+                    <div id="btn">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sno</th>
+                        <th>Customer Name</th>
+                        <th>Bike No</th>
+                        <th>Check In</th>
+                        <th>Check Out</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="../Javascript/ParkingSlot.js"></script>
+</body>
+</html>
