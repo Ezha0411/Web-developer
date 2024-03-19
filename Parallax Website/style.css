@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=PT+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:"lato",sans-serif;
+}
+
+#parallax ,#image-two{
+    position: relative;
+    opacity: 0.7;
+    
+}
+#bg1{
+    height:100vh;
+    background-image: url("./image/image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#para-heading h1{
+    letter-spacing: 10px;
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 20px;
+    position: absolute;
+    top: 350px;
+    left: 650px;
+}
+.section{
+    text-align: center;
+    padding: 60px 50px;
+    line-height: 30px;
+    opacity: 0.7;
+    height: 30vh;
+}
+.section h1{
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.section p{
+    font-size: 20px;
+} 
+
+#bg2{
+    height: 60vh;
+    background-image: url("./image/image2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.image-heading h1{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    letter-spacing: 20px;
+}
+
+#section-two,#section-three{
+    background-color:#282E34 ;
+    color: white;
+    height: 20vh;
+}
+
+#bg3{
+    height: 60vh;
+    background-image: url("./image/image3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
