@@ -1,0 +1,448 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: "apple-system, BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif;
+}
+/* FIXED content */
+#fixed{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: 2px solid royalblue;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border-bottom-color:rgb(185, 20, 185) ;
+    border-right-color:rgb(185, 20, 185) ;
+    background-color: aliceblue;
+}
+#fixed>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+#fixed>a>i{
+    padding-right: 5px;
+}
+#logo>img{
+    width: 40px;
+}
+#logo>h1{
+    font-size: 40px;
+    color: white;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#boder{
+    border-left: 1px solid rgb(100, 99, 99);
+    padding: 15px;
+}
+.nav-content>a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight:500;
+    padding: 10px;
+}
+#nav-modules{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.modules{
+    margin-left: 15px;
+}
+.modules>a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;  
+    font-weight: 300;
+    padding: 15px;
+}
+.modules i{
+    margin-left: 5px;
+}
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(43,43,43);
+    padding: 15px;
+}
+#navigation a:hover{
+    background-color: rgb(99, 98, 98);
+    border-radius: 10px;
+}
+
+/* SEAARCH BOX */
+
+#search-box{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#search-box>input{
+    width: 900px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    background:whitesmoke;
+    border: 1px solid rgb(80, 79, 79);
+}
+/* #search-box>input:focus{
+    border: 2px solid royalblue;
+} */
+#search-box>button{
+    height: 62px;
+    width: 180px;
+    font-size: 20px;
+    padding: 10px;
+    background: rgb(9,117,122);
+    border: none;
+    color: white;
+}
+#search-box>button:hover{
+    border: 1px solid black;
+    background: rgb(6, 57, 59);
+}
+
+/* home-content */
+
+h2{
+    font-size: 16px;
+    text-align: justify;
+    width: 300px;
+}
+.home-content-para1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    text-align: justify;
+}
+.home-content-para2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    line-height: 25px;
+    font-weight: 550;
+    padding: 10px 0;
+}
+#home-content1{
+    background-image: url("././image/row-mrq-bl-landscape.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    border-radius: 10px;
+    padding: 10px 30px ;
+    line-height: 60px;
+    width: 64%;
+}
+
+#home-content-button{
+    margin-top: 20px;
+    width: 300px;
+    text-align:center;
+}
+.home-content-button{
+    background-color: black;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.home-content-button>i{
+    display: none;
+}
+.home-content-button:hover{
+    transition: 2s;
+}
+.home-content-button:hover>i{
+    display: inline-block;
+}
+#content2{
+    background-color:rgb(253,233,219);
+    height: 90vh;
+    border-radius: 10px;
+    line-height: 60px;
+    width: 300px;
+    padding: 20px 0px 0px 10px;
+}
+
+#home-content2{
+    padding: 70px 25px;
+}
+#home-content2>h2{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+.home-content-para3{
+    font-size: 32px;
+    font-weight: 600;
+    width: 250px;
+    text-align: center;
+}
+#home-content2>#button{
+    margin-top: 30px;
+    text-align: center;
+}
+#home-content2>#button+div{
+    text-align: center;
+}
+#home-content2>#button+div+p{
+    font-size: 12px;
+}
+#home-content2>#button+div>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+#home-content2>#button+div>a:hover{
+    text-decoration: underline;
+}
+#home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width:98vw;
+}
+
+/* WEBPAGES */
+#web-heading{
+    margin: 100px 0px 50px 0px ;
+}
+
+#web-heading>h1{
+    font-size: 42px;
+    text-align: center;
+}
+#web-heading>p{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px  ;
+}
+.webpage{
+    width: 550px;
+}
+.webpage>img{
+    width: 550px;
+}
+.webpage>h1{
+    padding: 20px 0px ;
+}
+.web-details{
+    font-size: 16px;
+    width: 430px;
+    margin-bottom:10px ;
+    font-weight: 520;
+}
+.web-details+p{
+    line-height: 40px;
+    font-size: 16px;
+}
+.web-details+p>span{
+    font-size: 42px;
+    font-weight: 530;
+}
+.web-button{
+    margin-top: 30px;
+}
+.web-button>a{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 40px ;
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    width: 400px;
+}
+.web-button>a>i{
+    display: none;
+}
+.web-button>a:hover i{
+    display: inline-block;   
+}
+#webpages{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+/* IMAGE CONTENT */
+
+#image-content{
+    background: url("./image/mrq-Guide-IN-PK-Suraiya-desktop.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    margin-top: 80px;
+    position: relative;
+}
+.image-content{
+    width: 550px;
+    position: absolute;
+    right: 20px;
+    margin-top: 36px;
+}
+.image-content>img{
+    width: 200px;
+    margin-bottom: 40px;
+}
+.image-content>h1{
+    font-size: 62px;
+}
+.image-content>p{
+    font-size: 20px;
+    font-weight: 530;
+    margin: 50px 0px; 
+    line-height: 26px;  
+}
+#image-gudie{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    line-height: 24px;
+}
+
+#disclaimer>h2{
+    font-size: 16px;
+    text-decoration: underline;
+    padding: 40px 0px 0px 40px ;
+}
+
+#disclaimer>h2+p{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+    padding: 0px 40px;
+}
+#dis-para{
+    height: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 540;
+    margin-top: 26px;
+}
+
+
+/* FOOTER */
+#offer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:10px  20px ;
+    background-color: rgb(39, 39, 39);
+    border-bottom: 1px solid whitesmoke;
+}
+#offer>h2{
+    font-size: 20px;
+    color: whitesmoke;
+}
+#offer>img{
+    width: 30px;
+}
+
+
+/* OFFER ITEMS */
+#offer-items{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background: black;
+}
+#offer-items li>a{
+    text-decoration: none;
+    color: rgb(155, 154, 154);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#offer-items li>a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+    margin-bottom: 20px;
+    width: 160px;
+}
+.item-heading{
+    font-size: 20px;
+    font-weight: 540;
+    color: white;
+}
+#footer-logo{
+    background: black;
+    position: relative;
+}
+#footer-logo h2{
+    color: white;
+    width: 120px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo>img{
+    width: 30px;
+}
+.logo>h1{
+    font-size: 30px;
+    color: white;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid rgb(247, 244, 244);
+    padding: 0px 0px 10px 40px ;
+}
+#social-media{
+    position: absolute;
+    right: 10px;
+    bottom: 130px;
+}
+#social-media>a{
+    padding: 20px;
+}
+#social-media>a>i{
+    font-size: 24px;
+    color: antiquewhite;
+}
+#copyright{
+    padding-bottom: 20px;
+    position: relative;
+}
+#copyright>p{
+    color: white;
+    font-size: 12px;
+    width: 1000px;
+    padding:20px 0px 0px 40px;
+}
+#cp-link{
+    position: absolute;
+    right: 30px;
+    bottom: 69px;
+}
+#cp-link>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-size: 12px;
+}
+#cp-link>a:hover{
+    text-decoration: underline;
+}
